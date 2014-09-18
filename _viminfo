@@ -19,21 +19,31 @@
 # Input Line History (newest to oldest):
 
 # Registers:
-""1	LINE	0
+"1	LINE	0
 	fjdsalkfj sadfkljds alkfjlksadfjlkjadfkj
 "2	LINE	0
 	Hello git!
+""-	CHAR	0
+	e
 
 # File marks:
-'0  1  22  ~\myfile.txt
+'0  11  0  ~\.git\COMMIT_EDITMSG
+'1  1  44  ~\myfile.txt
 
 # Jumplist (newest first):
--'  1  22  ~\myfile.txt
+-'  11  0  ~\.git\COMMIT_EDITMSG
+-'  1  0  ~\.git\COMMIT_EDITMSG
+-'  1  44  ~\myfile.txt
+-'  1  44  ~\myfile.txt
 
 # History of marks within files (newest to oldest):
 
+> ~\.git\COMMIT_EDITMSG
+	"	11	0
+
 > ~\myfile.txt
-	"	1	22
-	^	1	23
-	.	1	22
-	+	1	22
+	"	1	44
+	^	1	45
+	.	1	44
+	+	1	44
+	e	1	42
